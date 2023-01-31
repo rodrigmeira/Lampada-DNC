@@ -1,0 +1,48 @@
+body
+{
+    background-color: #242426;
+    color: #fff;
+    text-align: center;
+
+}
+
+    /* Estilizando a DIV */
+
+header 
+{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+section
+{
+    background-color: #989797;
+    color: #000000;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+    /* Estilizando os INPUTS */
+
+#button
+{
+    background-color: #2b60d3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+    #button:hover
+    {
+        transition: .4s;
+        transform: scale(1.05);
+        cursor: pointer;
+
+        background-color: #4576e0;
+    }
